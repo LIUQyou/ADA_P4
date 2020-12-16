@@ -1,9 +1,14 @@
 plugins:
   - jekyll-include-cache
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
+minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 title: Will clients subscript a term deposit?
+subtitle: "Version 2.0"
+name: "Lwy"
+header:
+  teaser: https://github.com/mmistakes/minimal-mistakes/blob/master/screenshot.png
 email: liuqun1006@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description:
   Can you imagine how difficult it is to start a business from new customers compared to old customers? 
   The company spends a lot of manpower and financial resources to attract new customers, 
   but the company is still not sure whether customers will show confidence in them. 
