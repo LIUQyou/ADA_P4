@@ -29,7 +29,7 @@ some of which are number data and some others are text data. The first step to p
 For example, the custom's XXX will not influence their decision to subscript a new term deposit.
 While marital status is an important factor. Apparently, if a customer has already get married. He is highly likely to buy a new business product.
 - ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
-The other influence factor contains XX,XX,YY,ZZ.
+- The other influence factor contains XX,XX,YY,ZZ.
 As we know, if one factor has nothing to do with the result. We can simply delete it to reduce computation complexity and avoid noise.
 We drop unnecessary features and keep the rest. Now, we get about NN features for the next step.
 ### 2.0 Data Nummerize and Standardization
@@ -39,8 +39,8 @@ Therefore, we should find an appropriate method to process these kinds of data.
 The method we decide to take is to encoding. We use number value to represent the text.
 For example, the feature jobs contains NN kinds of different jobs name. 
 We decide to use number to reprent the text here.
-![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
-Then we used the same method to process all text feature. 
+- ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
+- Then we used the same method to process all text feature. 
 ### 3.0 unknown filling
 - Unknown data is another problem we are facing. Due to privacy sensitivity of some customers, they are unwilling to disclose more personal information, so a lot of data cannot be recorded. Therefore, there are blank information being marked as unknown.
 ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
@@ -79,10 +79,17 @@ Random forests are an ensemble learning method for classification, regression, a
 - Then we sort the gini score of different features and draw the following picture.
 - ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
 #### 3.0 Result Compare
-- 
-[Image](src)
-[Image](src)
-[Image](src)
+- By comparing model performance from different models.
+- ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
+- ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
+- We can find that ***********************************
+- We think that .....
+- Therefore, we have reason to believe that ******************************.
+- ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
+- ![Image](https://github.githubassets.com/images/icons/emoji/octocat.png)
+- From the feature importance and relevance with the result. We can easily find that the features like X, Y will exert a huge influence on the result prediction, where X is positively related to the result and Y is negative to that. Here, we can find that when ( Real Situation), people tend to subscript a new term deposit. If a man (real situation),...
+- Moreover, time is an effective factor as well. If the seller tries to call someone on Monday, they are highly likely to be rejected. This is in line with our feeling, after all, who would be in the mood to answer the call from a salesperson during the busiest Monday. Another interesting point is that the month will influence the performance of the salesperson. May is quite an interesting month when people get a sales call, blablablabla. In contrast, if they get a call at %%%%, they are highly likely to XXXX.
+
 
 [Link](url) and ![Image](src)
 
