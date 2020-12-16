@@ -1,4 +1,6 @@
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-include-cache
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 title: Will clients subscript a term deposit?
 email: liuqun1006@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -7,5 +9,4 @@ description: >- # this means to ignore newlines until "baseurl:"
   but the company is still not sure whether customers will show confidence in them. 
   Therefore, why not try to make a new start with old customer? 
   But how do we know whether they would buy subscript a term deposit here?
-plugins:
-  - jekyll-include-cache
+
