@@ -1,5 +1,19 @@
 plugins:
   - jekyll-include-cache
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      
+author:
+  name     : "lwy"
+  avatar   : "screenshot.png"
+  bio      : "My awesome biography constrained to a sentence or two goes here."
+  location : "Somewhere, USA"
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -16,12 +30,3 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # "/blog"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 email: liuqun1006@gmail.com
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      show_date: true
-      read_time: true
-
