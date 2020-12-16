@@ -5,6 +5,7 @@ minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon
 title: Will clients subscript a term deposit?
 subtitle: "Version 2.0"
 name: "Lwy"
+teaser: https://github.com/mmistakes/minimal-mistakes/blob/master/screenshot.png
 header:
   teaser: https://github.com/mmistakes/minimal-mistakes/blob/master/screenshot.png
 email: liuqun1006@gmail.com
