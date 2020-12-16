@@ -4,8 +4,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 head:
-  teaser                 : screenshot.png
-logo                     : screenshot.png
+  teaser                 : "screenshot.png"
 # Site Settings
 locale                   : "en-US"
 title                    : "Will clients subscript a term deposit?"
@@ -14,7 +13,15 @@ subtitle                 : "Predict if the client will subscribe a term deposit 
 name                     : "lwy"
 description              : #"Predict if the client will subscribe a term deposit or not, using Machine learning"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  :  "/blog"
+baseurl                  : # "/blog"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 email: liuqun1006@gmail.com
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
 
