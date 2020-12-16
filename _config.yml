@@ -6,20 +6,15 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "Will clients subscript a term deposit?"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Predict if the client will subscribe a term deposit or not, using Machine learning"
 name                     : "lwy"
 description              : "Predict if the client will subscribe a term deposit or not, using Machine learning"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "screenshot.png"
+head:
+  teaser                   : screenshot.png
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 email: liuqun1006@gmail.com
-description:
-  Can you imagine how difficult it is to start a business from new customers compared to old customers? 
-  The company spends a lot of manpower and financial resources to attract new customers, 
-  but the company is still not sure whether customers will show confidence in them. 
-  Therefore, why not try to make a new start with old customer? 
-  But how do we know whether they would buy subscript a term deposit here?
 
